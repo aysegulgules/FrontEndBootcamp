@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="tr"> 
+    <head> <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Kullanıcı Bilgileri Formu</title> 
+    <!-- Form elemanlarının style özellikleri-->
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; } 
+      form { max-width: 500px; margin: 0 auto; } 
+      label { display: block; margin: 10px 0 5px; } input, select, textarea, 
+      button { width: 100%; padding: 8px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 4px; } 
+      button { background-color: #4CAF50; color: white; border: none; } 
+      button:hover { background-color: #45a049; } 
+      
+      
+      </style> 
+</head> 
+<body> 
+    <h1>Kullanıcı Bilgileri Formu</h1> 
+
+    <form action="/submit" method="post">
+
+         <label for="firstName">Adı:</label> 
+         <input type="text" id="firstName" name="firstName" required> 
+         
+         <label for="lastName">Soyadı:</label> 
+         <input type="text" id="lastName" name="lastName" required> 
+
+         <label for="email">E-posta:</label> 
+         <input type="email" id="email" name="email" required>
+
+         <label for="password">Parola:</label> 
+         <input type="password" id="password" name="password" required> 
+
+         <label>Cinsiyet:</label>
+         <label for="male" style="display: inline;">Erkek</label>
+         <input type="radio"  id="male" name="gender" value="male"> 
+          
+         <label for="female" style="display: inline;">Kadın</label> 
+         <input type="radio" id="female" name="gender" value="female" > 
+         
+
+         <label for="fruit">Favori Meyve:</label> 
+         <select id="fruit" name="fruit"> 
+             <option value="apple">Elma</option> 
+             <option value="banana">Muz</option> 
+             <option value="strawberry">Çilek</option> 
+         </select> 
+             
+        <label for="message">Mesaj:</label>
+        <textarea id="message" name="message" rows="4"></textarea> 
+             
+        <button type="submit">Gönder</button> 
+    </form> 
+</body>
