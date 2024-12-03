@@ -15,7 +15,7 @@ Bu proje aşağıdaki bileşenlerden oluşmaktadır:
   <br>
   ![image](https://github.com/user-attachments/assets/20219ae5-fd77-45a9-8d7d-f03eececb7e3)
 
-  <br>
-  <br>
+  <br/> 
+  
   ![image](https://github.com/user-attachments/assets/36d45c0a-a22b-4ba2-9c4f-99329529c17e)
 
