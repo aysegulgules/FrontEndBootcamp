@@ -1,6 +1,6 @@
 # Blog Sitesi
 ## Proje Açıklaması
- Bu proje, HTML5 ve temel CSS kullanarak bir blog sitesi oluşturmak amaçlanmıştır.Gezi Blog web sitesi, ana sayfa ve blog detay sayfasından oluşmakta.
+ Bu proje, HTML5 ve temel CSS kullanarak bir blog sitesi oluşturmak amaçlanmıştır. Gezi Blog web sitesi, ana sayfa ve blog detay sayfasından oluşmakta.
 ## Proje İçeriği 
 Bu proje aşağıdaki bileşenlerden oluşmaktadır: 
 - Temel HTML5 doküman yapısı
