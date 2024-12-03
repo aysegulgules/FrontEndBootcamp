@@ -2,6 +2,7 @@
 ## Proje Açıklaması
  Bu projede, HTML5 ve temel CSS kullanarak yazar veya edebi figür için tribute websitesi yapılması amaçlanmaktadır. Web sitesi, ana sayfa, biografi ve eserler bölümünden oluşmaktadır.
  <br>
+  <br>
 Bu proje aşağıdaki bileşenlerden oluşmaktadır: 
 - Temel HTML5 doküman yapısı
 - Başlık ve paragraflar
