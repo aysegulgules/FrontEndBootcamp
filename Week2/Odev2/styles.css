@@ -1,0 +1,120 @@
+ body 
+    {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; margin: 0; 
+    padding: 0; 
+    
+    } 
+
+ header 
+    {
+    background-color: #333; 
+    color: white; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 3em; 
+    max-width: 100%;
+    top: 0;
+    } 
+
+ header h1 
+    { 
+        margin: 0; 
+              
+    } 
+
+ nav ul 
+    { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    }
+
+ nav ul li 
+    { 
+    margin-left: 1em; 
+    } 
+
+ nav ul li a 
+    { 
+        color: white;
+        text-decoration: none;  
+    }
+
+ section
+    { 
+    padding: 2em;
+    text-align: center;
+    } 
+ 
+ section#home
+    {
+    height: 490px;
+    background-image: url('images/ismail_hakki_aydin.jpeg');
+       background-size: cover; /* Resmi tam ekran kaplamak için */ 
+    background-position:center; /* Resmi merkeze hizalamak için */ 
+    background-repeat:space;
+    text-align: center;
+    justify-content: center;
+    background-color: #c42323;
+    }
+
+ 
+
+ section#home blockquote 
+    { 
+     color: white;
+    padding: 1em; 
+    text-align: center; 
+    font-size: 4em; 
+    font-weight: bold; 
+    color: #1e2926; 
+    text-shadow: 2px 2px 4px rgba(173, 55, 55, 0.5);    
+    padding-left: 5em;
+    padding-top: 0; 
+    text-align: center;
+    border: 0;        
+    } 
+
+ section#info p
+    {
+        margin: 50px 150px 50px 150px;
+        text-align: center;      
+        line-height: 1.6;
+    }
+
+ section#books
+   {
+    background-color: chocolate;
+    justify-content: center;
+   }
+
+ section#books h2
+   { 
+    margin-left: 13em;
+    text-align:left;
+   }
+
+ section#books ul
+   { 
+    margin-left: 20em;
+    text-align:left;
+   }
+
+ footer 
+    {
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 1em; 
+    height: 50px;
+    } 
+
+ footer p 
+    { 
+      padding: 1em; 
+        margin: 0; 
+    }
