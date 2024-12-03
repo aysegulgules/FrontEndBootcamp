@@ -11,6 +11,8 @@ Bu proje aşağıdaki bileşenlerden oluşmaktadır:
 ## Kullanılan Teknolojiler
 - HTML5
 - CSS
+   <br>
+  <br>
   ![image](https://github.com/user-attachments/assets/20219ae5-fd77-45a9-8d7d-f03eececb7e3)
 
   <br>
