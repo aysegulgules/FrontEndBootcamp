@@ -13,7 +13,8 @@ Bu proje aşağıdaki bileşenlerden oluşmaktadır:
 - Bootstrap
    <br>
   <br>
- ![image](https://github.com/user-attachments/assets/1a90157d-9c22-443f-b001-a3cc7da466ca)
+![image](https://github.com/user-attachments/assets/50e1bc5d-b8bd-4b68-9458-07ca6cb2db71)
+
 
 
   <br/> 
