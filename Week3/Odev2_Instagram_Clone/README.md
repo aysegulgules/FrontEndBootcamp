@@ -1,6 +1,6 @@
 # Instagram Clone
 ## Proje Açıklaması
- Bu proje, HTML5 ve Bootstrap kullanarak Instagram klonu oluşturmak amaçlanmıştır. 
+ Bu proje, HTML5 ve Bootstrap kullanarak Instagram Clone oluşturmak amaçlanmıştır. 
 ## Proje İçeriği 
 Bu proje aşağıdaki bileşenlerden oluşmaktadır: 
 - Temel HTML5 doküman yapısı
