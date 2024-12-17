@@ -18,6 +18,10 @@ Bu proje aşağıdaki bileşenlerden oluşmaktadır:
 ![image](https://github.com/user-attachments/assets/e3568e86-21b5-4e26-9d1b-d23cafa79b0c)
 ![image](https://github.com/user-attachments/assets/4cba8dcc-7f0e-4334-9bf1-4a345ff11ed9)
 ![image](https://github.com/user-attachments/assets/a3ab470b-45ea-4641-b6ef-01785147f000)
+![image](https://github.com/user-attachments/assets/8ee02f78-ad2a-49fe-82bb-6dd65efa8ba4)
+![image](https://github.com/user-attachments/assets/e9068d98-77bd-4caf-8887-772fd04d0f54)
+
+
 
 
 
