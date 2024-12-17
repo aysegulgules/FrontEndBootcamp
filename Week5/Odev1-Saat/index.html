@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karşılama Ekranı</title>
+
+    
+
+</head>
+<body style="background-color: black;color: chocolate;">
+
+    
+    <div style="text-align: center; justify-items: center; margin-top: 10px;"  >
+        <h1 >KODLUYORUZ</h1>
+        <h2  id="welcomeMessage"></h2>
+        <h2  id="dateTime"></h2>
+        <p> tarihinde Kodluyoruz FrontEnd Web Development Patikası'nın Javascript</p>
+        <p> bölümü 1. Ödevindesiniz.</p>
+    </div>
+
+    <script>
+        
+        const name = prompt('Lütfen isminizi girin:', '');
+
+        if (name) {
+            // Kullanıcıya hoş geldin mesajını göster
+            document.getElementById('welcomeMessage').textContent = `Merhaba, ${name}! Hoş geldin!` ;
+
+            
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            document.getElementById('dateTime').textContent = now.toLocaleDateString('tr-TR', options);
+        } else {
+            alert('Lütfen isminizi girin.');
+        }
+    </script>
+
+</body>
+</html>
