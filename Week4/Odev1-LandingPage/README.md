@@ -5,7 +5,6 @@
 Bu proje aşağıdaki bileşenlerden oluşmaktadır: 
 - Temel HTML5 doküman yapısı
 - Başlık ve paragraflar
-- Sıralı ve sırasız listeler
 - Görseller ve bağlantılar
 - TailwindCSS stil uygulamaları 
 ## Kullanılan Teknolojiler
