@@ -3,90 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mamba Design System</title>
+    <title></title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100">
 
-    <!-- Header -->
-    <header class="bg-white shadow">
-        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
-            <div class="flex items-center space-x-4">
-                <a href="#" class="text-xl font-bold">Logo</a>
-                <nav>
-                    <a href="#" class="text-gray-800 hover:text-blue-500 mx-3">Link</a>
-                    <a href="#" class="text-gray-800 hover:text-blue-500 mx-3">Link</a>
-                </nav>
+
+    <style> 
+    
+    .quote-content::before, 
+    .quote-content::after { content: '“'; font-size: 24px; color: #aaa; } 
+    .quote-content::after { content: '”'; } 
+    
+    </style>
+
+</head>
+<body class="bg-white">
+
+    <div class="bg-gray-100 mx-20 shadow  pb-4 ">
+        <header class=" shadow">
+            <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+                <div class="flex justify-center ml-10 ">
+                
+                    <nav >
+                        <a href="#" class="text-gray-800 hover:text-blue-500 mx-3">Link</a>
+                        <a href="#" class="text-gray-800 hover:text-blue-500 mx-3">Link</a>
+                        <a href="#" class="text-gray-800 hover:text-blue-500 mx-3">Link</a>
+                    </nav>
             </div>
-            <div class="flex items-center space-x-4">
-                <button class="text-gray-800 hover:text-blue-500">Search</button>
-                <button class="bg-blue-500 text-white px-4 py-2 rounded">Login</button>
+            <div><span style="font-size: 30px;">&copy;</span> </div>
+                <div class="flex justify-between  items-center space-x-24 ">
+                    <button class="text-gray-800 hover:text-blue-500">Search</button>
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Log in</button>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
 
   
 
         <div class="text-center mb-16 bg-gray-400 py-20">
-            <h1 class="text-3xl font-bold mb-4">Quisquam necessita vel laborum doloribus delectus.</h1>
-            <p class="text-lg mb-8">Cupiditate nobis explicabo temporibus quis? Architecto beatae vitae dicta sunt explicabo!</p>
+            <h1 class="text-3xl font-bold mb-4 grid grid-row-3">
+                <span>Quisquam necessita</span>
+                <span>vel <span class="text-blue-700">laborum</span> </span>
+                <span><span class="text-blue-700">doloribus</span>  delectus.</span>
+            </h1>
+            <p class="text-sm mb-8 grid grid-row-2">
+                <span>Cupiditate nobis explicabo temporibus quis? </span>
+                <span> Architecto beatae vitae dicta vitae dicta sunt explicabo!</span>
+            </p>
             <div class="space-x-4">
                 <button class="bg-blue-500 text-white px-4 py-2 rounded">Get started</button>
-                <button class="bg-gray-200 text-gray-800 px-4 py-2 rounded">Learn more</button>
+                <button class=" font-bold text-gray-800 px-4 py-2 ">Learn more</button>
             </div>
         </div>
 
-        <div class="text-center mb-16  py-20">
-        <h2 class="text-2xl font-bold text-center mb-8">What our customers are saying about us.</h2>
+        <div class="text-center  mt-0 mb-5 pt-2 pb-10">
+            <h2 class="text-2xl font-bold text-center ">
+                What our customers are saying about us.
+            </h2>
         </div>
       
-            <div class=" mx-20 px-16  py-16 grid grid-cols-2 gap-4 justify-center">
-               
-                
-                    <div class=" p-6 bg-white rounded-lg shadow">
-                        <h3 class="text-xl font-bold mb-4">Dolores et ea reiciendis</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="p-6 bg-white rounded-lg shadow">
-                        <h3 class="text-xl font-bold mb-4">Dolores et ea reiciendis</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="p-6 bg-white rounded-lg shadow">
-                        <h3 class="text-xl font-bold mb-4">Dolores et ea reiciendis</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="p-6 bg-white rounded-lg shadow">
-                        <h3 class="text-xl font-bold mb-4">Dolores et ea reiciendis</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                
+
+        <div class=" mx-24 px-24  grid grid-cols-2  gap-5 justify-center mb-10 pt-10 "  style="justify-items: center; ">
+            <div class=" mt-5 border-1 rounded-lg overflow-hidden shadow-xl font-serif  text-center grid grid-row-3 "  style=" position: relative;width: 300px;height:320px;">
+                <div class="quote-content pt-8 pb-6  px-10 text-center italic text-neutral-500 my-1" style="position: relative; background-color: rgb(248, 244, 244);;"> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                </div> 
+                <div style="position: relative;  z-index: 1;   ">
+                    <div class="  bg-white  rounded-full  " style="position: absolute; top: -15px; width: 45px; height: 45px;margin-left: 130px;  "></div>
+                </div> 
+                <div class="text-white rounded-b-lg  text-center p-3 grid grid-row-3 justify-center  " style="background-color: rgb(158, 19, 158);position: relative; align-items: end;"> 
+                    <div class="font-bold mt-3">Distinctio Animi</div> 
+                    <div class="text-xs uppercase">Aliquam Illum</div> 
+                    </div> 
             </div>
-            <div class="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto"> <h1 class="text-2xl font-bold mb-4">Mamba design system</h1> <p class="mb-4">Build it with Mamba. Modular and versatile. The ultimate design toolkit for savvy technology startups.</p> <div class="relative bg-gray-100 p-4 rounded-lg shadow-md"> <span class="absolute top-2 left-2 text-purple-600 text-2xl">&ldquo;</span> <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.</p> <div class="flex items-center mt-4"> <img src="https://via.placeholder.com/40" alt="Profile" class="w-10 h-10 rounded-full mr-4"> <div> <p class="text-gray-800 font-bold">Distinctio Animi</p> <p class="text-purple-600">Aliquam Illum</p> </div> </div> </div> </div>
 
 
-            <section class="container mx-auto py-16">
-                <h3 class="text-center text-3xl font-bold mb-8">What our customers are saying about us</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                  <div class="bg-white rounded shadow p-6">
-                    <p class="italic mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam eligendi exercitationem molestias possimus facere.</p>
-                    <div class="bg-purple-600 text-white py-2 px-4 rounded text-center">Distinctio Animi<br><span class="text-sm">ALIQUAM ILLUM</span></div>
-                  </div>
-                  <div class="bg-white rounded shadow p-6">
-                    <p class="italic mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam eligendi exercitationem molestias possimus facere.</p>
-                    <div class="bg-purple-600 text-white py-2 px-4 rounded text-center">Distinctio Animi<br><span class="text-sm">ALIQUAM ILLUM</span></div>
-                  </div>
-                  <div class="bg-white rounded shadow p-6">
-                    <p class="italic mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam eligendi exercitationem molestias possimus facere.</p>
-                    <div class="bg-purple-600 text-white py-2 px-4 rounded text-center">Distinctio Animi<br><span class="text-sm">ALIQUAM ILLUM</span></div>
-                  </div>
-                  <div class="bg-white rounded shadow p-6">
-                    <p class="italic mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam eligendi exercitationem molestias possimus facere.</p>
-                    <div class="bg-purple-600 text-white py-2 px-4 rounded text-center">Distinctio Animi<br><span class="text-sm">ALIQUAM ILLUM</span></div>
-                  </div>
+
+            <div class=" mt-5 border-1 rounded-lg overflow-hidden shadow-xl font-serif  text-center grid grid-row-3 "  style=" position: relative;width: 300px;height:320px;">
+                <div class="quote-content pt-8 pb-6  px-10 text-center italic text-neutral-500 my-1" style="position: relative; background-color: rgb(248, 244, 244);;"> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                </div> 
+                <div style="position: relative;  z-index: 1;   ">
+                    <div class="  bg-white  rounded-full  " style="position: absolute; top: -15px; width: 45px; height: 45px;margin-left: 130px;  "></div>
+                </div> 
+                <div class="text-white rounded-b-lg  text-center p-3 grid grid-row-3 justify-center  " style="background-color: rgb(158, 19, 158);position: relative; align-items: end;"> 
+                    <div class="font-bold mt-3">Distinctio Animi</div> 
+                    <div class="text-xs uppercase">Aliquam Illum</div> 
+                    </div> 
+            </div>
+
+            <div class=" mt-5 border-1 rounded-lg overflow-hidden shadow-xl font-serif  text-center grid grid-row-3 "  style=" position: relative;width: 300px;height:320px;">
+                <div class="quote-content pt-8 pb-6  px-10 text-center italic text-neutral-500 my-1" style="position: relative; background-color: rgb(248, 244, 244);;"> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                </div> 
+                <div style="position: relative;  z-index: 1;   ">
+                    <div class="  bg-white  rounded-full  " style="position: absolute; top: -15px; width: 45px; height: 45px;margin-left: 130px;  "></div>
+                </div> 
+                <div class="text-white rounded-b-lg  text-center p-3 grid grid-row-3 justify-center  " style="background-color: rgb(158, 19, 158);position: relative; align-items: end;"> 
+                    <div class="font-bold mt-3">Distinctio Animi</div> 
+                    <div class="text-xs uppercase">Aliquam Illum</div> 
+                    </div> 
+            </div>
+
+            <div class=" mt-5 border-1 rounded-lg overflow-hidden shadow-xl font-serif  text-center grid grid-row-3 "  style=" position: relative;width: 300px;height:320px;">
+                <div class="quote-content pt-8 pb-6  px-10 text-center italic text-neutral-500 my-1" style="position: relative; background-color: rgb(248, 244, 244);;"> 
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                             Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                </div> 
+                <div style="position: relative;  z-index: 1;   ">
+                    <div class="  bg-white  rounded-full  " style="position: absolute; top: -15px; width: 45px; height: 45px;margin-left: 130px;  "></div>
+                </div> 
+                <div class="text-white rounded-b-lg  text-center p-3 grid grid-row-3 justify-center  " style="background-color: rgb(158, 19, 158);position: relative; align-items: end;"> 
+                    <div class="font-bold mt-3">Distinctio Animi</div> 
+                    <div class="text-xs uppercase">Aliquam Illum</div> 
+                </div> 
+            </div>
+        </div>
+    </div>     
+
+    <div class="mx-20 grid grid-row-2 px-20 mb-5 rounded-lg mt-20" style="background-color: #dbd7d7; "  > 
+        <div class="mx-24 grid grid-row-2  items-center justify-center h-screen  mt-5   mb-3 " >
+            <div class="bg-white border border-gray-200 rounded-lg shadow-lg p-5  m-4 ">                
+                <h2 class="text-xl font-bold mb-4 text-center">Contact us</h2>                
+                <form style="width: 500px;">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 mb-2">Name</label>
+                        <input type="text" id="name" placeholder="Your name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 mb-2">Email</label>
+                        <input type="email" id="email" placeholder="Your email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 mb-2">Message</label>
+                        <textarea id="message" placeholder="Message..." class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500">Send</button>
+                </form>
+            </div>
+          
+        </div>  
+
+        <div class=" flex justify-between mx-1 " >
+            <div class="flex justify-start gap-2  mb-2 font-bold">
+                <a href="#" class="text-gray-700 hover:text-purple-500">Shop</a>
+                <a href="#" class="text-gray-700 hover:text-purple-500">About</a>
+                <a href="#" class="text-gray-700 hover:text-purple-500">Blog</a>
+                <a href="#" class="text-gray-700 hover:text-purple-500">Pricing</a>
+                <a href="#" class="text-gray-700 hover:text-purple-500">Contact</a>
+            </div>
+            <div>
+                <div class="flex  justify-end gap-2"> 
+                    <a href="#"><img src="https://image.shutterstock.com/image-photo/smiling-young-man-standing-beside-260nw-1840515815.jpg" alt="Email Icon"></a>
+                     <a href="#"><img src="https://image.shutterstock.com/image-photo/smiling-young-man-standing-beside-260nw-1840515815.jpg" alt="Twitter Icon"></a>
+                      <a href="#"><img src="https://image.shutterstock.com/image-photo/smiling-young-man-standing-beside-260nw-1840515815.jpg" alt="GitHub Icon"></a> 
                 </div>
-              </section>
-            
-        
-   
+            </div>
+        </div>
+    </div>  
+
+
+           
 </body>
 </html>
