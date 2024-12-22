@@ -1,0 +1,128 @@
+
+
+body
+{
+    display: flex;
+    justify-items: center;
+}
+.container {
+  display: inline;
+  align-items: center;
+  width: calc(100% - 40%);
+}
+.container1{
+    position:flex;    
+    justify-content: center;
+    align-items: center;
+    background-color: #ff9800;
+    padding: 20px;
+
+}
+ .h1D{
+     justify-self:center; 
+ }
+
+#inputList{
+    width: calc(100% - 105px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    margin-right: 0px;
+   
+}
+#buttonadd {
+    padding: 10px;
+    margin-left: 0px;
+    border: none;
+    width: 100px; 
+    background-color: #949b95;
+    color: white;
+    cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li.checked1 {   
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px 8px 8px 40px;
+
+  font-size: 16px;
+  transition: 0.2s;
+
+
+  list-style-type: none;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+li button { 
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+}
+  
+ul li.checked {
+  background: #276678; 
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 8px 40px;
+  text-decoration: line-through;
+  font-size: 16px;
+  transition: 0.2s;
+
+
+  list-style-type: none;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+}
+  ul li.checked1:hover {
+    background: #8c9094; 
+    color: #b5b1c4;
+      
+  }
+  
+  ul li.checked::before {
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  li .close {
+    
+      
+    color:black;
+  }
+  
+  .close:hover {
+    background-color: #f78501;
+   
+  
+  }
+
+  ul li.checked1:nth-child(odd) { 
+    background-color: #f9f9f9; 
+  } 
+  ul li.checked1:nth-child(even)   { 
+    background-color: #e0e0e0; 
+   }
+
