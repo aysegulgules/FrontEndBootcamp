@@ -1,0 +1,12 @@
+@import "./common.css";
+@import "./banner.css";
+@import "./header.css";
+@import "./sections/hero.css";
+@import "./sections/card.css";
+@import "./sections/classes.css";
+@import "./sections/bmi.css";
+@import "./sections/trainer.css";
+@import "./sections/purchase.css";
+@import "./sections/review.css";
+@import "./sections/contact.css";
+@import "./sections/footer.css";

@@ -1,0 +1,88 @@
+.review-div{
+    position: relative;
+    background-color: var(--background--color-3);
+    top:28vh;
+    padding-bottom: 90px;
+}
+
+.section-review-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    padding-top: 25px;
+    gap:100px;
+    
+}
+
+.review-client,.review-client-head div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.review-client-head  {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.review-client-head div{
+    padding-top: 10px;
+    padding-left:20px;    
+}
+
+.review-client-head h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-bottom: 5px;
+}
+
+.review-client-head span{
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+
+.review-client-head img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.review-client-text {
+    position: relative;
+    background: #355592;
+    padding: 10px 20px 10px 20px; 
+    color: white;
+    width: 430px;
+    height: 120px;
+    margin: 10px auto;
+}
+
+.review-client-text::after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    left: 0px;
+    width: 40px; /* Kutu genişliği */
+    height: 40px; /* Kutu yüksekliği */
+    background: linear-gradient(225deg, #9aaed4 50%, rgb(238, 244, 250) 50%);
+}
+.review-client-text::before {
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    right: 0px;
+    width: 40px; /* Kutu genişliği */
+    height: 40px; /* Kutu yüksekliği */
+    background: linear-gradient(135deg, #9aaed4 50%, rgb(238, 244, 250) 50%);
+}
+
+.review-client-text p{
+    font-size: 14px;
+    font-weight: 500;
+    margin:5px;
+}

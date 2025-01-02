@@ -1,0 +1,44 @@
+#camera .swiper{
+    width: 100%;
+   padding: 0 28%;
+}
+
+#camera .swiper-button-next, #camera .swiper-button-prev{
+   --swiper-navigation-size: 20px;
+   padding: 15px 20px;
+   width: auto;
+   height: auto ;
+   color:varg(--font-color-1);
+   background-color: var(--background--color-2);
+   border-radius: 100%;
+}
+
+#camera .swiper-slide{
+    opacity: 0.3;
+    transition: opacity 200ms linear;;
+}
+
+#camera .swiper-slide.swiper-slide-active{
+    opacity: 1;
+   
+}
+
+#camera .swiper-slide img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#camera .swiper-slide h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--font-color-2);
+    margin: 24px 0 0 0;
+    text-align: center ;
+}
+
+#camera .swiper-slide h3 span{
+    
+    color: var(--font-color-1);
+   
+}

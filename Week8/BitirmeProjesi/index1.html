@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konuşma Balonu</title>
+    <style>
+        .speech-bubble {
+            position: relative;
+            background: #355592;
+            padding: 1em;
+            color: white;
+            width: 400px;
+            height: 50px;
+            margin: 20px auto;
+        }
+        
+        .speech-bubble:after {
+            content: '';
+            position: absolute;
+            bottom: -40px;
+            left: 0px;
+            width: 40px; /* Kutu genişliği */
+            height: 40px; /* Kutu yüksekliği */
+            background: linear-gradient(225deg, #9cb0d4 50%, #ffffff 50%);
+        }
+        .speech-bubble::before {
+            content: '';
+            position: absolute;
+            bottom: -40px;
+            right: 0px;
+            width: 40px; /* Kutu genişliği */
+            height: 40px; /* Kutu yüksekliği */
+            background: linear-gradient(135deg, #9cb0d4 50%, #ffffff 50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="speech-bubble">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. obcaecati facilis voluptatem sequi, aut optio nihil, autem veniam recusandae veritatis aliquid.
+    </div>
+</body>
+</html>

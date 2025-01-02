@@ -1,0 +1,63 @@
+
+#section-hero {
+    margin-top: 30px;   
+    padding-left: 0%;
+}
+
+
+.section-hero  h1{   
+    font-size: 60px;   
+    margin: 0;
+    margin-bottom: 20px;   
+    font-weight: 750;
+    line-height: 1.2;
+}
+
+.section-hero  h6{   
+
+    width: 95px;
+    height: 26px;
+    text-align: center;
+    align-content: center;
+    font-size: 13px; 
+    background-color: var(--background--color-2);
+    border-radius: 3px;
+    font-weight: 750;
+      
+
+}
+
+.section-hero  p{
+     background-color: var(--background--color-1);
+    margin-top: 15px; 
+    padding: 8px 20px 3px 15px;        
+     margin-bottom: 5px; 
+}
+
+#section-hero-footer{
+    display:flex; 
+    gap: 40px;
+     padding-left: 20px; 
+    margin-top: 3px;
+}
+
+#section-hero-footer button{
+    width:90px ;
+    background-color: var(--background--color-1);
+    margin-top: 1px;
+    color: aliceblue;
+    border:1px solid ; 
+    border-radius:3px;
+    padding:3px 13px 3px 13px ;    
+    font-size: 15px;
+}
+
+#section-hero-footer button:hover{
+    background-color: var(--background--color-2);
+    color: aliceblue;
+    border:1px solid ; 
+    border-radius:3px;
+    padding:3px 13px 3px 13px ;    
+    font-size: 15px;
+    border:0px;
+}
