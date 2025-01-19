@@ -54,6 +54,24 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+#div_dice
+{
+  width: 750px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.dice_img {
+
+  width: 160px;
+  height: 160px;
+}
+.zar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
