@@ -1,0 +1,140 @@
+header {
+    position: sticky; 
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.header-div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex: row;
+    gap: 10px;   
+   
+}
+
+#header-a { 
+    margin-top: 0;  
+    position: relative;  
+}
+
+
+#header-img {   
+    height: 70px; 
+    margin-right: 1rem;
+}
+
+
+#navbar {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    flex: row;  
+    
+}
+
+#navbar ul {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#navbar ul li {
+    
+    margin: 0 ;
+    list-style: none;   
+    padding-top: 1rem;
+    position: relative;
+    height: auto;
+    width: 75px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 13px; 
+    color: var(--font--color-1); 
+    box-sizing: border-box;
+ 
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(213, 226, 24);
+    border-radius: 2px;    
+    padding: 5px;
+    font-size: 11px;
+    text-transform: uppercase;   
+       
+}
+#menu-btn, #menu-icon
+{
+    display: none;
+}
+
+
+@media screen and (max-width: 576px) {
+    .header-div {
+        display: flex;     
+        flex: row;
+        justify-content:start;
+        flex-grow: 1 1 50%;
+        flex-wrap: wrap;
+        gap:70px ;
+        padding-left: 33px;
+    
+        
+    }
+
+  #navbar {
+  margin-top: 2px;
+   display: none;
+  }
+   
+    #navbar ul {
+       
+        flex-direction: column;
+        text-align:left;
+        width: 100%;
+    }
+
+    #menu-btn {
+        display: flex;
+        margin-right: -40px;
+        opacity: 0.01;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 10px;
+        color: white;       
+    }
+
+    #menu-btn:checked ~ #navbar    {
+        display: block;
+        transform: translateY(0);
+        width: 30%;        
+        transition: all 0.3s;
+        background-color: #355592;
+        top:-75px;
+        right: -220px;   
+         
+
+    }
+ 
+}
+
+
+
+
+        
+
+
+    
+

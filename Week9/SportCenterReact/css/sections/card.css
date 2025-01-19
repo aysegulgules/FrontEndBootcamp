@@ -1,0 +1,76 @@
+.card-div
+{
+    position: relative;
+    background-color: var(--background--color-3);
+    margin-top: 37px;   
+    width: 100%;    
+    
+}
+
+.section-card {
+    padding-top: 30px;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;    
+    font-weight: 750;
+    padding-bottom: 30px;
+   
+}
+
+.card-1 {     
+    text-align: center;
+    padding: 15px 12px 15px 12px;
+    width: 24%;
+    height: 130px;
+    max-height: 100px;
+    background-color: var(--background--color-4);   
+    margin-bottom: 12px;  
+}
+
+.card-div h3
+{
+    color: var(--font--color-3);
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.card-div p
+{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 800; 
+}
+
+@media screen and (max-width: 576px) {
+    .card-div
+    {
+        padding-left: 45px;
+    }
+      
+    .section-card {
+        padding-top: 30px;
+        display:flex;
+        flex-direction: column;
+        gap: 20px;           
+        font-weight: 750;
+        padding-bottom: 30px;
+        align-content: center;
+        padding-left: 10%;
+        padding-right: 10%;
+
+       
+    }
+
+    .card-1 {     
+        text-align: center;
+        padding: 0px;
+        width: 64%;
+        height: 130px;
+        max-height: 100px;
+        background-color: var(--background--color-4);   
+        margin-bottom: 12px;  
+    }
+
+
+}

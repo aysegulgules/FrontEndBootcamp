@@ -1,0 +1,10 @@
+.banner-div{   
+     position: relative;
+      color: var(--font--color-1);              
+      background-repeat: no-repeat;      
+      font-weight: 750;
+      line-height: 1.5;      
+      z-index: 1;    
+      align-self: start;
+}
+
