@@ -72,7 +72,7 @@ section
   background-color: #2ccc71;
   height: 80px;
   padding-top: 1px;
-  font-size: 28px;
+  font-size: 20px;
   color:white;
 }
 
@@ -136,7 +136,7 @@ button{
 }
 .product_sell
 {
-  background: #f1f2f6 !important;  
+  background: #f6f1f1 !important;  
   color: #333;
   cursor: auto;
   touch-action: manipulation;
@@ -167,36 +167,48 @@ input{
 #section_receipt
 {
   background-color: #fff;
+  display: flex;
+  flex-direction: column  ;
+  gap: 1px;
+  font-weight: 700;
 }
 
 #head_receipt{
   font-size: 28px;
-    padding: 15px 15px 15px;
-    font-weight: 700;    
-    text-align: center;
+    padding: 15px 15px 15px;     
+ text-align: center ;
 }
 
-#div_receipt{
-  max-width: 290px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.div_receipt{
+   align-self: center;  
     display: grid;
-    grid-gap: 10px 0;
-    font-size: 18px;
-    grid-template-columns: 170px 45px 75px;
+    grid-template-columns: 100px 80px 80px;   
+    grid-template-rows:30px; 
+    gap: 1px;
+     text-align: start;   
+    font-size: 14px;  
 
+
+
+}
+
+.p-price{
+  font-size: 14px; 
+    color: #1cb970;
+
+}
+
+.p-name{
+width: 100%;
 }
 #total_receipt{
-  font-weight: 700;
-    max-width: 300px;
+  margin-top: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
     border-top: 1px solid #333;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    padding-top: 10px;
-    display: flex;
+  display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
 @media (prefers-color-scheme: light) {
