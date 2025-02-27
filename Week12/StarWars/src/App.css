@@ -1,0 +1,13 @@
+.divstar{
+    display: flex;
+    flex-direction:row;
+    justify-content:center; 
+    padding-left:10%; 
+    padding-right: 10%;
+    flex-wrap: wrap;
+    gap: 15px; 
+}
+.column {
+    flex: 1;
+    padding: 10px;
+  }
